@@ -7,6 +7,11 @@ export default function Hello() {
     return (
         <div>
             <h2 id="name"></h2>
+            <button onClick={() => {
+                setName(name === "groomi" ? "김구름이" : "groomi");
+            }}>
+
+            </button>
         </div>
     );
 }
